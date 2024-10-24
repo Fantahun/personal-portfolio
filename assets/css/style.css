@@ -1,14 +1,3 @@
-/**
-* Template Name: MyResume
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   /* font-family: "Khand","Open Sans", sans-serif; */
   color: #272829;
@@ -353,7 +342,8 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
+  padding-right: 25px;
   overflow: hidden;
 }
 
@@ -575,6 +565,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio_photo{
+  width: 320px;
+  /* border-radius: 20px; */
+  border: 5px solid transparent;
+  border-image: linear-gradient(90deg, rgba(2, 0, 36, .5) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  border-image-slice: 1;}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
