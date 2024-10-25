@@ -263,7 +263,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/hero-bg.png") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -278,7 +278,7 @@ h6 {
   content: "";
   /* background: rgba(132, 132, 248, 0.74);
    */
-   background: linear-gradient(90deg, rgba(233,87,87,.2) 10%, rgba(40,84,194,.4) 62%);
+   background: linear-gradient(90deg, rgba(233,87,87,.1) 10%, rgba(40,84,194,.2) 62%);
    position: absolute;
   bottom: 0;
   top: 0;
@@ -766,7 +766,8 @@ section {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(82, 39, 226, 0.893);
+  /* background: rgba(82, 39, 226, 0.893); */
+  background: linear-gradient(180deg, rgba(80, 113, 182, 0.95) 10%, rgba(40,84,194,.95) 62%);
   text-align: justify;
   color: white;
   display: flex;
